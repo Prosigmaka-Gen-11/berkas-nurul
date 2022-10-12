@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="latihan.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-light navbar-light shadow sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand h5" href="#">Indo Travel</a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" >What to See</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Destinations</a></li>
+                    <li><a class="dropdown-item" href="#">Attractions</a></li>
+                    <li><a class="dropdown-item" href="#">Events</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">What to Do</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Tip Ideas</a></li>
+                    <li><a class="dropdown-item" href="#">Travel Blog</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"  href="#" data-bs-toggle="dropdown">Plan Your Trip</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">General<br>Informations</a></li>
+                        <li><a class="dropdown-item" href="#">Packages</a></li>
+                    </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Penutup navbar -->
+
+      
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- strip 3 dibawah tulisan -->
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="aset/mount.jpg" alt="Indonesia" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+            <h3 class="fw-bold">Indonesia</h3>
+            <p>Indonesia have many beautiful mountains</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="aset/bromo.jpg" alt="bromo" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+            <h3 class="fw-bold">Mount Bromo</h3>
+            <p>Mount Bromo is a part of the Bromo Tengger Semeru National Park that covers a massive area of 800 square km</p>
+            </div> 
+        </div>
+        <div class="carousel-item">
+            <img src="aset/img.jpg" alt="img" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+            <h3 class="fw-bold">Welcome</h3>
+            <p>Enjoy your holiday!</p>
+            </div>  
+        </div>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!-- Akhir dari carousel -->
+
+
+    <!-- main content -->
+      <main class="container pt-5 px-5">
+        <section>
+            <h2 class="h4 text-black fw-bold mb-4 justify-content-between">Curated journey from the best in the industry</h2>
+            
+            <!-- Artikel utama -->
+            <article class="row mb-5">
+                <div class="col-6">
+                    <img  class="img-fluid" 
+                          src="https://placeimg.com/600/360/nature" 
+                          alt="article-image">
+                </div>
+                <div class="col-6">
+                    <h3 class="fw-light mb-4">Eu velit do aliqua laborum. </h3>
+                    <p class="lh-lg"> Nostrud duis aliqua eu incididunt consequat duis. Ex deserunt reprehenderit quis nulla sunt aute deserunt sit non. Excepteur id proident adipisicing aliquip labore aliquip adipisicing fugiat amet eiusmod adipisicing velit velit. Minim dolor occaecat tempor aute. In est dolor nulla fugiat ex eu enim ex anim mollit sunt nulla incididunt est.</p>
+                </div>
+            </article>
+            <hr>
+            <!-- penutup artikel utama -->
+
+            <!-- card img -->
+            <div class="container row">
+                <div class="col-md-12 col-lg-4 col-sm-3 mt-2">
+                    <div class="card card-inverse card-success text-center">
+                        <img class="card-img-top" src="https://img.jakpost.net/c/2017/03/20/2017_03_20_23739_1489984971._large.jpg" alt="Card image" style="width:100%">
+                        <div class="card-block">
+                          <h4 class="card-title text-primary">Bali Island</h4>
+                          <p class="card-text">Bali turn into Silence of the Land. Hindu New Year of Saka 1939.</p>
+                          <a href="#" class="btn btn-primary">See More>></a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-12 col-lg-4 col-sm-3 mt-2">
+                    <div class="card card-inverse card-success text-center">
+                        <img class="card-img-top" src="https://img.jakpost.net/c/2017/03/20/2017_03_20_23739_1489984971._large.jpg" alt="Card image" style="width:100%">
+                        <div class="card-block">
+                          <h4 class="card-title text-primary">Bali Island</h4>
+                          <p class="card-text">Bali turn into Silence of the Land. Hindu New Year of Saka 1939.</p>
+                          <a href="#" class="btn btn-primary">See More>></a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-12 col-lg-4 col-sm-3 mt-2">
+                    <div class="card card-inverse card-success text-center">
+                        <img class="card-img-top" src="https://img.jakpost.net/c/2017/03/20/2017_03_20_23739_1489984971._large.jpg" alt="Card image" style="width:100%">
+                        <div class="card-block">
+                          <h4 class="card-title text-primary">Bali Island</h4>
+                          <p class="card-text">Bali turn into Silence of the Land. Hindu New Year of Saka 1939.</p>
+                          <a href="#" class="btn btn-primary">See More>></a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-12 col-lg-4 col-sm-3 mt-2">
+                    <div class="card card-inverse card-success text-center">
+                        <img class="card-img-top" src="https://img.jakpost.net/c/2017/03/20/2017_03_20_23739_1489984971._large.jpg" alt="Card image" style="width:100%">
+                        <div class="card-block">
+                          <h4 class="card-title text-primary">Bali Island</h4>
+                          <p class="card-text">Bali turn into Silence of the Land. Hindu New Year of Saka 1939.</p>
+                          <a href="#" class="btn btn-primary">See More>></a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-12 col-lg-4 col-sm-3 mt-2">
+                    <div class="card card-inverse card-success text-center">
+                        <img class="card-img-top" src="https://img.jakpost.net/c/2017/03/20/2017_03_20_23739_1489984971._large.jpg" alt="Card image" style="width:100%">
+                        <div class="card-block">
+                          <h4 class="card-title text-primary">Bali Island</h4>
+                          <p class="card-text">Bali turn into Silence of the Land. Hindu New Year of Saka 1939.</p>
+                          <a href="#" class="btn btn-primary">See More>></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4 col-sm-3 mt-2">
+                    <div class="card card-inverse card-success text-center">
+                        <img class="card-img-top " src="https://img.jakpost.net/c/2017/03/20/2017_03_20_23739_1489984971._large.jpg" alt="Card image" style="width:100%">
+                        <div class="card-block">
+                          <h4 class="card-title text-primary">Bali Island</h4>
+                          <p class="card-text">Bali turn into Silence of the Land. Hindu New Year of Saka 1939.</p>
+                          <a href="#" class="btn btn-primary">See More>></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- end of card img -->
+
+
+            <article class="row mb-5">
+                <div class="col-4">
+                    <img  class="img-fluid" 
+                          src="https://placeimg.com/600/360/nature" 
+                          alt="article-image">
+                </div>
+                <div class="col-8">
+                    <h3 class="fw-light mb-4">Eu velit do aliqua laborum. </h3>
+                    <p class="lh-lg"> Nostrud duis aliqua eu incididunt consequat duis. Ex deserunt reprehenderit quis nulla sunt aute deserunt sit non. Excepteur id proident adipisicing aliquip labore aliquip adipisicing fugiat amet eiusmod adipisicing velit velit. Minim dolor occaecat tempor aute. In est dolor nulla fugiat ex eu enim ex anim mollit sunt nulla incididunt est.</p>
+                </div>
+            </article>
+            <hr>
+
+            <article class="row mb-5">
+                <div class="col-4">
+                    <img  class="img-fluid" 
+                          src="https://placeimg.com/600/360/nature" 
+                          alt="article-image">
+                </div>
+                <div class="col-8">
+                    <h3 class="fw-light mb-4">Eu velit do aliqua laborum. </h3>
+                    <p class="lh-lg"> Nostrud duis aliqua eu incididunt consequat duis. Ex deserunt reprehenderit quis nulla sunt aute deserunt sit non. Excepteur id proident adipisicing aliquip labore aliquip adipisicing fugiat amet eiusmod adipisicing velit velit. Minim dolor occaecat tempor aute. In est dolor nulla fugiat ex eu enim ex anim mollit sunt nulla incididunt est.</p>
+                </div>
+            </article>
+            <hr>
+
+            <article class="row mb-5">
+                <div class="col-4">
+                    <img  class="img-fluid" 
+                          src="https://placeimg.com/600/360/nature" 
+                          alt="article-image">
+                </div>
+                <div class="col-8">
+                    <h3 class="fw-light mb-4">Eu velit do aliqua laborum. </h3>
+                    <p class="lh-lg"> Nostrud duis aliqua eu incididunt consequat duis. Ex deserunt reprehenderit quis nulla sunt aute deserunt sit non. Excepteur id proident adipisicing aliquip labore aliquip adipisicing fugiat amet eiusmod adipisicing velit velit. Minim dolor occaecat tempor aute. In est dolor nulla fugiat ex eu enim ex anim mollit sunt nulla incididunt est.</p>
+                </div>
+            </article>
+            
+            <hr>
+        </section>
+      </main>
+
+      <footer class="border-top">
+        <div class="container py-4 d-flex justify-content-between">
+            <span> Nurul Aini I </span>
+            <section>
+                <i class="fa-brands fa-facebook h4 mx-2"></i>
+                <i class="fa-brands fa-linkedin h4 mx-2"></i>
+				<i class="fa-brands fa-github h4 mx-2"></i>
+                <i class="fa-brands fa-twitter h4 mx-2"></i>
+            </section>
+
+            <section>
+                <a href="">contact me</a>
+                <a href="">privacy term</a>
+            </section>
+        </div>
+
+      </footer>
+</body>
+</html>
