@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Dropdown</title>
+    <link rel="stylesheet" href="final.css">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+</head>
+<body>
+    <nav class="bg-teal-700 flex justify-between text-zinc-200">
+        <div class="m-2 p-2 text-xl  font-semibold hover:text-zinc-400">
+            <a href="#">Indo Travel</a>
+        </div>
+        <div class="m-2 p-2 text-lg  font-semibold">
+            <ul class="flex space-x-11">
+                <!-- Menu Home -->
+                <li> <a href="#" class=" hover:text-zinc-400">Home</a></li>                
+                <!-- Menu What to See -->
+                <li id="dropdownDefault" data-dropdown-toggle="whattosee">
+                    <a href="#" class=" hover:text-zinc-400 flex">What to See<svg class="w-4 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></a>
+                </li>
+                <!-- Dropdown menu What to See -->
+                <div id="whattosee" class="hidden z-10 w-44 bg-teal-700 rounded divide-y divide-gray-100 shadow dark:bg-gray-700" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(0px, 510px, 0px);">
+                    <ul class="py-1 text-base" aria-labelledby="dropdownDefault">
+                        <li><a href="#" class="block py-2 px-4 hover:text-zinc-400">Destinations</a></li>
+                        <li><a href="#" class="block py-2 px-4 hover:text-zinc-400">Attractions</a></li>
+                        <li><a href="#" class="block py-2 px-4 hover:text-zinc-400">Events</a></li>
+                    </ul>
+                </div>
+                <!-- Menu What to Do -->
+                <li id="dropdownDefault" data-dropdown-toggle="whattodo">
+                    <a href="#" class=" hover:text-zinc-400 flex">What to Do<svg class="w-4 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></a>
+                </li>
+                <!-- Dropdown menu What to Do-->
+                <div id="whattodo" class="hidden z-10 w-44 bg-teal-700 rounded divide-y divide-gray-100 shadow dark:bg-gray-700" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(0px, 510px, 0px);">
+                    <ul class="py-1 text-base" aria-labelledby="dropdownSee">
+                        <li><a href="#" class="block py-2 px-4 hover:text-zinc-400">Trip Ideas</a></li>
+                        <li><a href="#" class="block py-2 px-4 hover:text-zinc-400">Travel Blog</a></li>
+                    </ul>
+                </div>
+                <!-- Menu Plan Your Trip -->
+                <li id="dropdownDefault" data-dropdown-toggle="planyourtrip">
+                    <a href="#" class=" hover:text-zinc-400 flex">Plan Your Trip<svg class="w-4 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></a>
+                </li>
+                <!-- Dropdown menu Plan Your Trip-->
+                <div id="planyourtrip" class="hidden z-10 w-44 bg-teal-700 rounded divide-y divide-gray-100 shadow dark:bg-gray-700" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(0px, 510px, 0px);">
+                    <ul class="py-1 text-base" aria-labelledby="dropdownDefault">
+                        <li><a href="#" class="block py-2 px-4 hover:text-zinc-400">General Informations</a></li>
+                        <li><a href="#" class="block py-2 px-4 hover:text-zinc-400">Packages</a></li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
