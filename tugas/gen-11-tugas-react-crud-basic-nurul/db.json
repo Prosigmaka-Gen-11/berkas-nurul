@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "nama": "Album Proof versi Standard",
+      "jumlah": "10",
+      "alamat": "Bandung",
+      "payment": "Down payment",
+      "method": "Transfer bank",
+      "date": "2022-04-28",
+      "shipment": [
+        "Standar",
+        "SiCepat"
+      ],
+      "catatan": "packing extra bubble wrap + box"
+    },
+    {
+      "nama": "BTS 2021 Memories Blu-Ray",
+      "jumlah": "1",
+      "alamat": "Jakarta",
+      "payment": "Full payment",
+      "method": "OVO",
+      "date": "2022-08-27",
+      "shipment": [
+        "Express",
+        "J&T"
+      ],
+      "catatan": "packing extra bubble wrap+box",
+      "id": 3
+    },
+    {
+      "nama": "nnnn",
+      "jumlah": "2",
+      "alamat": "mmmm",
+      "payment": "Tabungan",
+      "method": "DANA",
+      "date": "2022-10-26",
+      "shipment": [
+        "JNE"
+      ],
+      "catatan": "mmmm",
+      "id": 4
+    },
+    {
+      "nama": "lalalala",
+      "jumlah": "1",
+      "alamat": "mmmm",
+      "payment": "Full Payment",
+      "method": "Transfer Bank",
+      "date": "2022-10-25",
+      "shipment": [
+        "SiCepat"
+      ],
+      "catatan": "qwerty",
+      "id": 5
+    }
+  ]
+}
