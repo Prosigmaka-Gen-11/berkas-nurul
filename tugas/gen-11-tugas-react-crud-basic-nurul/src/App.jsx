@@ -101,14 +101,14 @@ function App() {
         </thead>
         <tbody>
           {data.map((datasales) => (
-            <tr>
+            <tr key={datasales.id}>
               <td>{datasales.nama}</td>
               <td>{datasales.jumlah}</td>
               <td>{datasales.alamat}</td>
               <td>{datasales.payment}</td>
               <td>{datasales.method}</td>
               <td>{datasales.date}</td>
-              <td>{datasales.shipment}</td>
+              <td>{datasales.shipment.join(", ")}</td>
               <td>{datasales.catatan}</td>
               <td>
                 <button onClick={() => prepareEdit(datasales)}>Edit</button>
@@ -134,7 +134,7 @@ function App() {
         <label>
           Jumlah Barang: <br />
           <input
-            type="text"
+            type="number"
             value={formInput.jumlah}
             onChange={(evt) => handleFormInput(evt, "jumlah")}
           />

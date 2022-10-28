@@ -29,29 +29,31 @@
       "id": 3
     },
     {
-      "nama": "nnnn",
-      "jumlah": "2",
-      "alamat": "mmmm",
-      "payment": "Tabungan",
-      "method": "DANA",
-      "date": "2022-10-26",
+      "nama": "Album Proof versi Compact",
+      "jumlah": "3",
+      "alamat": "Demak",
+      "payment": "Full Payment",
+      "method": "OVO",
+      "date": "2022-10-10",
       "shipment": [
-        "JNE"
+        "Standar",
+        "WAHANA Express"
       ],
-      "catatan": "mmmm",
+      "catatan": "packing extra bubble wrap",
       "id": 4
     },
     {
-      "nama": "lalalala",
-      "jumlah": "1",
-      "alamat": "mmmm",
-      "payment": "Full Payment",
+      "nama": "Lightstick BTS ",
+      "jumlah": "20",
+      "alamat": "Semarang",
+      "payment": "Down Payment",
       "method": "Transfer Bank",
-      "date": "2022-10-25",
+      "date": "2022-10-09",
       "shipment": [
-        "SiCepat"
+        "Express",
+        "JNE"
       ],
-      "catatan": "qwerty",
+      "catatan": "packing extra bubble wrap + double box",
       "id": 5
     }
   ]

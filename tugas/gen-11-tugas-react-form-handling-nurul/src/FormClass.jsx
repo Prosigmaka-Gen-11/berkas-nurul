@@ -65,7 +65,7 @@ class FormClass extends Component {
         <p>Payment: {this.state.payment}</p>
         <p>Metode Payment: {this.state.method}</p>
         <p>Tanggal Payment: {this.state.date}</p>
-        <p>Shipment(Inter dan Local): {this.state.shipment}</p>
+        <p>Shipment(Inter dan Local): {this.state.shipment + " "}</p>
         <p>Catatan: {this.state.catatan}</p>
 
         <hr />

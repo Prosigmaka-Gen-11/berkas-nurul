@@ -35,6 +35,8 @@ function FormFunction() {
 
   return (
     <>
+      {/* Display data */}
+
       <h1>Form Jastip GO Magic Shop</h1>
       <p>Nama barang: {formInput.nama}</p>
       <p>Jumlah barang: {formInput.jumlah}</p>
@@ -42,10 +44,13 @@ function FormFunction() {
       <p>Payment: {formInput.payment}</p>
       <p>Metode Payment: {formInput.method}</p>
       <p>Tanggal Payment: {formInput.date}</p>
-      <p>Shipment(Inter dan Local): {formInput.shipment}</p>
+      <p>Shipment(Inter dan Local): {formInput.shipment + " "}</p>
       <p>Catatan: {formInput.catatan}</p>
 
       <hr />
+
+      {/* Form Mengisi Data Jastip */}
+
       <form onSubmit={(evt) => handleSubmit(evt)}>
         <label>
           Nama Barang: <br />
@@ -133,6 +138,7 @@ function FormFunction() {
                 type="checkbox"
                 name="shipment"
                 value={shipInterItem.label}
+                // checked={}
                 onChange={(event) => handleCheckBox(event, "shipment")}
               ></input>
               {shipInterItem.label}
