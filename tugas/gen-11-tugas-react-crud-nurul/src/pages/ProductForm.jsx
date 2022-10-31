@@ -36,7 +36,6 @@ function ProductForm() {
   //data edit
   const location = useLocation();
   const states = location.db;
-  console.log(states);
 
   //fungsi buat call data API
   async function getData() {
