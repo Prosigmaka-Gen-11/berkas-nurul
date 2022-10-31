@@ -33,9 +33,10 @@ function ProductForm() {
   const [formInput, setFormInput] = useState({ ...inputData });
   const isEditing = formInput.id;
 
-  //untuk mendapatkan data
+  //mendapatkan data untuk edit
   const location = useLocation();
-  const states = location.db;
+  const states = location.state;
+  console.log(states);
 
   //fungsi buat call data API
   async function getData() {

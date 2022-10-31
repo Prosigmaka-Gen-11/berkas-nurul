@@ -68,7 +68,7 @@ function ProductList() {
                   </button>
                 </Link>
                 <br />
-                <Link to="/product/form" db={datasales}>
+                <Link to="/product/form" state={datasales}>
                   <button className="p-1 m-1 bg-emerald-600 rounded-md font-semibold text-white">
                     Edit
                   </button>
