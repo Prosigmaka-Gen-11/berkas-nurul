@@ -1,0 +1,101 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "nama": "Jin (BTS) The Astronaut (Set)",
+      "jumlah": "100",
+      "alamat": "Demak",
+      "payment": "Down Payment",
+      "method": "Transfer Bank",
+      "date": "2022-10-30",
+      "shipment": [
+        "Standar",
+        "SiCepat"
+      ],
+      "catatan": "packing extra bubble wrap + double box",
+      "releaseDate": "28-10-2022",
+      "desc": [
+        "Out Cover 2 Versions - 1 ea | ",
+        "Photobook 2 Versions - 1 ea | ",
+        "CD 2 Versions - 1 ea | ",
+        "Lyric Card - 1 Version | ",
+        "Postcard 2 Versions - 1 ea | ",
+        "Graphic Sticker - 1 Version | ",
+        "Seal Sticker 1 Version - 2ea of 8ea (Random) | ",
+        "Photocard 2 Version - 1ea of 4ea (Random) | ",
+        "Poster 2 Versions - 1ea | ",
+        "Price: $31.58"
+      ]
+    },
+    {
+      "id": 2,
+      "nama": "Proof (Collector’s Edition)",
+      "jumlah": "15",
+      "alamat": "Bandung",
+      "payment": "Full Payment",
+      "method": "DANA",
+      "date": "2022-09-29",
+      "shipment": [
+        "Express",
+        "JNE"
+      ],
+      "catatan": "packing extra bubble wrap + box",
+      "releaseDate": "28-09-2022",
+      "desc": [
+        "Outer Box - 1ea | ",
+        "Outer Frame - 1ea | ",
+        "PhotoBook - 1ea | ",
+        "Premium Photo(Set) - 7ea | ",
+        "CD - 3ea | ",
+        "AR Card(Set) - 7ea | ",
+        "3D Card(Set) - 7ea | ",
+        "Photocard A-Anecdote (Set) - 7ea | ",
+        "Photocard B-Door (Set) - 7ea | ",
+        "User Guide - 1ea | ",
+        "Poster - 1ea | ",
+        "Price: $275.91"
+      ]
+    },
+    {
+      "id": 3,
+      "nama": "BE (Deluxe Edition)",
+      "jumlah": "2",
+      "alamat": "Jakarta",
+      "payment": "Full Payment",
+      "method": "ShopeePay",
+      "date": "2021-12-25",
+      "shipment": [
+        "Express",
+        "J&T"
+      ],
+      "catatan": "packing extra bubble wrap + pipa poster",
+      "releaseDate": "20-11-2020",
+      "desc": [
+        "Photobook - 1ea |",
+        "Making Book - 1ea | ",
+        "CD - 1ea | ",
+        "Lyric Poster - 1ea | ",
+        "Photo Card - 8ea | ",
+        "Polaroid Photo Card - 1ea | ",
+        "Photo Frame - 7ea | ",
+        "Postcard - 7ea | ",
+        "Poster - 1ea | ",
+        "Price: $36.60"
+      ]
+    },
+    {
+      "nama": "Map Of The Soul:7",
+      "jumlah": "4",
+      "alamat": "Semarang",
+      "payment": "Tabungan",
+      "method": "LinkAja",
+      "date": "2022-10-02",
+      "shipment": [
+        "Express",
+        "WAHANA Express"
+      ],
+      "catatan": "Packing extra bubble wrap",
+      "id": 4
+    }
+  ]
+}
