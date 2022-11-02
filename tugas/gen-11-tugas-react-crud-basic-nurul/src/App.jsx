@@ -31,8 +31,10 @@ function App() {
   const [data, setData] = useState([]);
   const [formInput, setFormInput] = useState({ ...inputData });
 
+  //untuk edit berdasarkan id
   const isEditing = formInput.id;
 
+  //fungsi buat call data API
   async function getData() {
     const sales = await axios.get("http://localhost:3000/data");
     setData(sales.data);
@@ -42,9 +44,11 @@ function App() {
     setFormInput({ ...formInput, [inputName]: evt.target.value });
   }
 
+  //fungsi handle buat submit
   async function handleSubmit(evt) {
     evt.preventDefault();
 
+    //${formInput.id} buat ambil data yang mau di edit. kalau , formInput agar data yang diedit masuk ke form
     if (isEditing) {
       await axios.put(`http://localhost:3000/data/${formInput.id}`, formInput);
     } else {
@@ -54,10 +58,12 @@ function App() {
     setFormInput({ ...inputData });
   }
 
+  //fungsi buat edit
   function prepareEdit(datasales) {
     setFormInput({ ...datasales });
   }
 
+  //fungsi buat delete. delete berdasarkan id
   async function deleteData(id) {
     await axios.delete(`http://localhost:3000/data/${id}`);
     getData();

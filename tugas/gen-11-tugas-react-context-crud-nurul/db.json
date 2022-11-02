@@ -27,6 +27,27 @@
       "payment": "Full Payment",
       "method": "ShoopePay",
       "id": 4
+    },
+    {
+      "nama": "Tes",
+      "jumlah": "1",
+      "payment": "Full Payment",
+      "method": "ShoopePay",
+      "id": 5
+    },
+    {
+      "nama": "Tes ",
+      "jumlah": "2",
+      "payment": "Down Payment",
+      "method": "LinkAja",
+      "id": 6
+    },
+    {
+      "nama": "Tes",
+      "jumlah": "3",
+      "payment": "Down Payment",
+      "method": "DANA",
+      "id": 7
     }
   ]
 }
